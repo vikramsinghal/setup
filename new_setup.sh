@@ -19,3 +19,6 @@ brew cask install iterm2
 
 # Install Fork
 brew cask install fork
+
+# Install ideviceinstaller
+brew install ideviceinstaller
