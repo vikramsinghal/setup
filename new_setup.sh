@@ -19,3 +19,5 @@ brew cask install iterm2
 
 # Install Fork
 brew cask install fork
+
+# This is a test comment
