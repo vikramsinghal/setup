@@ -17,5 +17,5 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install Iterm2
 brew cask install iterm2
 
-# install htop
-brew install htop
+# Install Fork
+brew cask install fork
