@@ -22,3 +22,9 @@ brew cask install fork
 
 # Install ideviceinstaller
 brew install ideviceinstaller
+
+# Install ack
+brew install ack
+
+# Install Visutal Studio Code
+brew cask install visual-studio-code
