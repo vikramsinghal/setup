@@ -1,4 +1,4 @@
-# This will isntall Brew
+# This will install Brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 # Install Google Chrome
