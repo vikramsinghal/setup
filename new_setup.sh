@@ -25,5 +25,8 @@ brew install ack
 # Install Visutal Studio Code
 brew cask install visual-studio-code
 
+#Install Coconut battery
+brew cask install coconutbattery
+
 # Install Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
