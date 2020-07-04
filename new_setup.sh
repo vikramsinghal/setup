@@ -28,5 +28,11 @@ brew cask install visual-studio-code
 #Install Coconut battery
 brew cask install coconutbattery
 
+# Install Nord VPN
+brew cask install nordvpn
+
+# Install WhatsApp
+brew cask install whatsapp
+
 # Install Zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
