@@ -1,4 +1,4 @@
-# After connecting device to the internet, we need to get the IP of the device
+# After connecting your android device to the internet, we need to get the IP of the device
 adb kill-server
 sleep 2
 # getDeviceIP="$(adb shell ip route | awk '{print $9}' | sed -n '2p')"
@@ -8,6 +8,7 @@ adb tcpip 5555
 adb connect $getDeviceIP:5555
 adb devices
 echo "Now unplug your device and wait for 5 seconds..."
+<<<<<<< HEAD
 sleep 5
 # for open_screen in {1..2}
 # do
@@ -18,3 +19,15 @@ sleep 5
 # adb shell input keyevent 66
 # sleep 0.5
 # scrcpy -w
+=======
+sleep 3
+for open_screen in {1..2}
+do
+    adb shell input keyevent 82
+done
+sleep 1
+adb shell input text '1234'
+adb shell input keyevent 66
+sleep 0.5
+scrcpy -w
+>>>>>>> effe828005cc0ef1a915af68f6179a2b8c2e4a5d
