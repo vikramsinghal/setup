@@ -7,7 +7,7 @@ echo "The device IP is $getDeviceIP"
 adb tcpip 5555
 adb connect $getDeviceIP:5555
 adb devices
-echo "Now unplug your device and wait for 5 seconds..."
+echo "Now unplug your device, wait for 5 seconds and type 'open' below"
 sleep 5
 # for open_screen in {1..2}
 # do
