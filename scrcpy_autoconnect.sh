@@ -1,4 +1,4 @@
-# After connecting device to the internet, we need to get the IP of the device
+# After connecting your android device to the internet, we need to get the IP of the device
 adb kill-server
 sleep 2
 # getDeviceIP="$(adb shell ip route | awk '{print $9}' | sed -n '2p')"
